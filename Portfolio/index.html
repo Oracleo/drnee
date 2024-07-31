@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niladri Biswas Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .float-button {
+        text-decoration: none;
+        position: fixed;
+        padding: 10px;
+        padding-right: 15px;
+        bottom: 30px;
+        right: 30px;
+        color: #fff;
+        background-color: #25D366;
+        border-radius: 25px 30px 5px 25px;
+        z-index: 100;
+        font-family: Arial;
+        font-size: 17px;
+        animation: whatsapp-animation 0.5s ease-in-out;
+        box-shadow: 1px 2px 5px 2px rgba(30,30,30,0.3);
+        transition: all 0.3s ease-out;
+    }
+
+    .float-button:hover {
+        background-color: #128C7E;
+        color: #fff;
+    }
+
+    .fa-whatsapp {
+        font-size: 20px !important;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    @keyframes whatsapp-animation {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+
+    @media screen and (max-width: 545px) {
+        span {
+            display: none;
+        }
+
+        .float-button {
+            bottom: 15px;
+            right: 15px;
+            width: 20px;
+            border-radius: 20px 20px 5px 20px;
+        }
+
+        .fa-whatsapp {
+            font-size: 22px !important;
+            padding: 4px;
+        }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+      <div class="text-xl font-bold">Niladri Biswas</div>
+      <div>
+        <a href="#home" class="px-3 py-2 text-gray-700 hover:text-gray-900">Home</a>
+        <a href="#about" class="px-3 py-2 text-gray-700 hover:text-gray-900">About</a>
+        <a href="#projects" class="px-3 py-2 text-gray-700 hover:text-gray-900">Projects</a>
+        <a href="#contact" class="px-3 py-2 text-gray-700 hover:text-gray-900">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="bg-white">
+    <div class="container mx-auto px-4 py-20 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm Niladri Biswas</h1>
+      <p class="text-xl md:text-2xl mb-8">Aspiring Software Engineer</p>
+      <a href="#projects" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container mx-auto px-4 py-20">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
+      <p class="text-xl md:text-2xl text-gray-700">I am a recent B.Tech CSE graduate with a strong foundation in Java, C/C++, and Data Structures and Algorithms. I am passionate about software engineering and am currently seeking an entry-level position where I can apply my skills and knowledge to contribute to innovative projects.</p>
+    </div>
+    <div class="flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 px-4">
+        <img src="https://placehold.co/600x400" alt="Niladri Biswas photo" class="rounded-lg shadow-lg">
+      </div>
+      <div class="w-full md:w-1/2 px-4">
+        <p class="text-lg text-gray-700 leading-loose mb-6">I specialize in creating dynamic and beautiful web pages. I have been in the field for nearly 3 years, and have been loving every minute of it.</p>
+        <a href="#" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-200 py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">Projects</h2>
+      <div class="flex flex-wrap -mx-4">
+        <!-- Project 1 -->
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="https://placehold.co/600x400" alt="Project 1" class="rounded mb-4">
+            <h3 class="text-2xl font-bold mb-2">Project Title 1</h3>
+            <p class="text-gray-700 mb-4">A brief description of the project.</p>
+            <a href="#" class="text-blue-500 hover:underline">Read more</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="https://placehold.co/600x400" alt="Project 2" class="rounded mb-4">
+            <h3 class="text-2xl font-bold mb-2">Project Title 2</h3>
+            <p class="text-gray-700 mb-4">A brief description of the project.</p>
+            <a href="#" class="text-blue-500 hover:underline">Read more</a>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="w-full md:w-1/3 px-4 mb-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg">
+            <img src="https://placehold.co/600x400" alt="Project 3" class="rounded mb-4">
+            <h3 class="text-2xl font-bold mb-2">Project Title 3</h3>
+            <p class="text-gray-700 mb-4">A brief description of the project.</p>
+            <a href="#" class="text-blue-500 hover:underline">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto px-4 py-20">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">Contact Me</h2>
+      <p class="text-xl md:text-2xl text-gray-700">Feel free to reach out to me via email or phone. I'm available for freelance work and collaborations.</p>
+    </div>
+    <div class="flex flex-wrap -mx-4">
+      <div class="w-full md:w-1/2 px-4 mb-8">
+        <form action="#" method="POST" class="bg-white p-6 rounded-lg shadow-lg">
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 text-lg font-bold mb-2">Name</label>
+            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 text-lg font-bold mb-2">Email</label>
+            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 text-lg font-bold mb-2">Message</label>
+            <textarea id="message" name="message" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+          </div>
+          <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg hover:bg-blue-600">Send Message</button>
+        </form>
+      </div>
+      <div class="w-full md:w-1/2 px-4 mb-8">
+        <div class="text-lg text-gray-700 leading-loose">
+          <p><i class="fas fa-envelope mr-2"></i> dr.niladribiswas@gmail.com</p>
+          <p><i class="fas fa-phone mr-2"></i> +91 8444997803</p>
+          <p><i class="fas fa-map-marker-alt mr-2"></i> Kolkata</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2024 Niladri Biswas. All rights reserved.</p>
+      <div class="flex justify-center mt-4">
+        <a href="https://twitter.com/yourusername" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/dr-niladri-biswas/" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yourusername" class="mx-2 text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/918444997803" class="float-button" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <span class="hidden md:inline">Chat with me on WhatsApp</span>
+  </a>
+
+</body>
+</html>
